@@ -1,0 +1,37 @@
+# Location
+
+$$ y \rightarrow \{90, 80, 70, 12\} $$
+$$ z \rightarrow \{90, 80, 70, 60\} $$
+$$ S_y \approx 34.9667 $$
+$$ S_z \approx 12.9099 $$
+
+## Median
+
+The median of a bunch of numbers is obtained by first putting  the numbers in ascending order, and picking the one in the middle.
+
+## Quartiles
+
+- 3 quartiles
+- Should be evenly distributed between quartiles
+- Second quartile ($$ Q_2 $$) is the same as the median
+- If there are an odd number of numbers (5, 7) the location of the second quartile can be thought of as a circle around the middle number if the numbers are in ascending order.
+- If there are an even number of numbers, the location of the second quartile ... a circle around the two middle numbers.
+- The first quartile is the median of the numbers to the left of the location of the second number if the numbers
+
+$$ Q_1 = \{1, 2, 5\}, Q_2 = \{6, 9, 10\} $$ if your numbers are $$ \{1, 2, 5, 6, 9, 10\} $$
+
+Inter-quartile range for $$ Q_1=\{1, 2, 5\}, M=\{6\}, Q_3=\{6, 9, 10\}, IQR = 9 - 2 = 7 $$
+
+## Five-number summary
+
+Consists of the following numbers in order:
+
+$$ \text{Lowest number} Q_1, Q_2, Q_3 \text{highest number} $$
+
+
+## Box plot
+
+Make an L shaped chart. Ends of the rectangle are on median from $$ Q_1 $$ and $$ Q_2 $$, middle line is on the median, and the ends are on the lowest/highest numbers
+
+## Homework:
+3.81a,b

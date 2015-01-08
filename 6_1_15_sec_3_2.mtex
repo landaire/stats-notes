@@ -1,0 +1,32 @@
+# 3.2
+
+
+A   | 40  | 40  | 60  | 60  | 50 (Mean)  | 11.54700538 (Standard Deviation) |
+--- | --- |---- | --- | --- | ---------- | -------------------------------- |
+B   | 48  | 48  | 50  | 50  | 49         | 1.154700538
+
+
+$$x \rightarrow \{3, 8, 4, 6, 14\}$$
+$$ x - 1 \rightarrow \{2, 7, 3, 9, 13\} $$
+$$ x^2 \rightarrow \{9, 64, 16, 36, 196\}$$
+$$n_x = 5 $$
+$$ \Sigma x = 3 + 8 + 4 + 6 + 14 = 35 $$
+$$ \Sigma (x - 1) = 30, \Sigma (x^2) = 321 $$
+mean $$ = \bar{x} = \frac{\Sigma x}{n_x} = \frac{35}{5} = 7 $$ 
+
+**Standard deviation**:
+$$ S_x = \sqrt{ \frac{ \Sigma [(x - \bar{x})^2] }{ n_x-1 } } $$
+$$x \rightarrow \{3, 8, 4, 6, 14\}$$
+$$x - \bar{x} \rightarrow \{-4, 1, -3, -1, 7\}$$
+$$ (x - \bar{x})^2 \rightarrow \{16, 1, 9, 1, 49\} $$
+$$ \Sigma [(x - \bar{x})^2] = 76 $$
+$$ \sqrt{\frac{76}{5-1}} = \sqrt{19} \approx 4.3589 $$
+
+**Variance**
+$$ S^2_x $$ (just don't square root the std. dev.) $$ = \frac{\Sigma {x^2} - \frac{(\Sigma x)^2}{n_x}}{n_x - 1}[\Sigma (x^2)] $$
+
+## Homework:
+3.35a
+3.41b
+
+Go to some page with a lot of blank space and two problems. Asks for mean and std. dev. and last two things are the answers(?)
