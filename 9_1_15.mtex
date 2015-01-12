@@ -1,0 +1,56 @@
+### General Notes
+
+- Quiz Monday
+- Five number summary (lowest number, $$ Q_1 $$, $$ Q_2 $$, $$ Q_3 $$, highest number)
+	- Need to know Median and Quartile stuff
+	- IQR
+	- Box plot that can be drawn from five number summary
+	- Inner fences
+	- Mean
+	- Variance
+	- Standard deviation
+
+
+## Probability (continued)
+
+### Dividing a deck of cards:
+
+____   | SPACES | HEARTS   | DIAMONDS | CLUBS |
+------ | ------ | -------- | -------- | ----- |
+A      |        |          |          |       |
+K      |        |          |          |       |
+Q      |        |          |    X     |       |
+J      |        |          |          |       |
+10     |        |          |          |       |
+9      |        |          |          |       |
+8      |        |          |          |       |
+7      |        |          |          |       |
+6      |        |          |          |       |
+5      |        |          |          |       |
+4      |        |          |          |       |
+3      |        |          |          |       |
+2      |        |          |          |       |
+
+Possibilities: $$ \{\text{A-S (Ace of Spaces), K-S, ..., 2-C})\} $$
+
+If A is a set then we will use $$ n(A) $$ to refer to the number of objects (elements)
+
+**Event**: a set of possible results (outcomes)
+
+Event: flipping a coin three times
+$$ H_1 = \{HTT, THT, TTH\} $$
+$$ R_{2T} (\text{R = two tails in a row}) = \{HTT, TTH\} $$ -- exactly 2
+$$ A \text{(alternating)} = \{THT, HTH\}$$
+$$ S \text{(the same)} = \{HHH, TTT\} $$
+$$ SS $$ (sample space itself)
+$$ \{\} $$ (empty set)
+
+Event: rolling a die twice
+$$ S_{10} \text{(sum is 10)} = \{(4,6), (5,5), (6,4)\} $$
+
+## Probability
+
+If E is an event for some experiment then $$ P(E) $$ refers to the best guess at the fraction of the outcomes that would be in $$ E $$ if the experiment were done a large number of times
+
+### Rolling a die
+$$ P(E) = \frac{1}{2} $$ to roll an even number

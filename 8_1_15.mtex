@@ -1,0 +1,65 @@
+# Chapter 3 cont.
+
+Which (if any) of these numbers are outliers?
+
+ $$ \{29, 47, 49, 50, 51, 55, 65, 77\} $$
+
+Format definition of an outlier: A number is an outlier if it is less than $$ Q_1 - 1.5IQR $$ or greater than $$ Q_3 + 1.5IQR $$
+
+$$ Q_2 $$ in this case is between 50 and 50 (result is 50.5, but that's irrelevant)
+
+$$ Q_1 = \frac{47+49}{2} = 48 $$
+$$ Q_3 = \frac{55+65}{2} = 60 $$
+$$ IQR = 60 - 48 = 12 $$ (reminder: IQR = interquartile range)
+
+**Inner fences** (number you have to be past in order to be considered an outlier):
+$$ Q_1 - 1.5IQR = 48 - (1.5)(12) = 48 - 18 = 30 $$
+$$ Q_3 + 1.5IQR = 60 + (1.5)(12) = 60 + 18 = 78 $$
+
+By the above calculations, 29 would be the only outlier since it is less than 30.
+
+## Homework
+
+Already assigned 3.81 a,b
+Do the box plot
+IQR
+Inner fences
+(Other stuff the problem asks for as well)
+
+Refer to the handout for the answers
+
+# Chapter 4 - Probability
+
+Experiments:
+
+Flipping a coin (once, twice, three times, etc.)
+Rolling a die (once, twice, ...)
+Drawing a card from a deck
+Roulette
+Randomly selecting a person and seeing if the person is left or right handed (L or R)
+
+The sample space ($$ SS $$) is the set of all the possible results (outcomes) for the experiment
+
+### Flipping a coin:
+$$ SS $$
+$$ \rightarrow \{H, T\} $$
+$$ \rightarrow \{HH, HT, TH, TT\} $$
+$$ \rightarrow \{HHH, ..., TTT\} $$
+
+First flip top, 2nd flip left
+
+ \  | H  | T  |
+--- | -- | -- |
+H   |    | TH |
+T   |    |    |
+
+Use a tree:
+
+Branch to show you can possibly get a head or tail, branch there for what you can get on the second flip (H or T again). The actual sample space is the leaf nodes of the tree
+
+### Rolling a die
+
+Rolling once:
+$$ \{1,2,3,4,5,6\} $$
+Twice:
+$$ \{(1,1), ..., (6,6)\} $$ Possibilities: $$ 6^2 = 36 $$
