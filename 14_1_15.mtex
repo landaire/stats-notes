@@ -1,0 +1,45 @@
+# Probability cont.
+
+## Flipping a coin 4 times
+
+What is the probability that the number of heads is two?
+
+$$ P(H_2) = \frac{n(H_2)}{n(SS)} = \frac{6}{16} = \frac{3}{8} = \frac{3}{8} = .375 $$
+
+What is the probability that there are at least two tails in a row?
+
+$$ P(R_{\geq2}) = \frac{n(R_{\geq2})}{n(SS)} = \frac{8}{16} = \frac{1}{2} = .5 $$
+
+What is the probability that the number of heads is two and there are at least two tails in a row?
+
+$$ P(H_2\cap R_{\geq 2}) = \frac{H_2\cap R_{\geq 2}}{n(SS)} = \frac{3}{16} = .1875 $$ 
+
+Same as above, but with OR instead of AND
+
+$$ P(H_2 \cup R_{\geq 2}) = \frac{6}{16} + \frac{8}{16} - \frac{3}{16} = \frac{11}{16} = .6875 $$
+
+What is the probability that the number of heads is not two?
+
+$$ P(H^{'}_2) = 1 - \frac{3}{8} = \frac{8}{8} - \frac{3}{8} = \frac{5}{8} = .625 $$
+
+## Rolling a die
+
+$$ SS = \{1,2,3,4,5,6\} $$
+$$ T = \{2,3\} $$
+$$ P(T) = \frac{2}{6} \approx .333\bar{3} $$
+
+## Other
+
+If all of the possible results are equally likely, then:
+
+$$ P(A) = \frac{n(A)}{n(SS)} $$
+
+For some experiment, $$ SS = \{a,b,c,d\} $$
+
+$$ P(a) = .11, P(b) = .23, P(c)=.45 $$
+
+$$ P(\{a,b\}) = P(\{a\} \cup \{b\}) = P(\{a\}) + P(\{b\}) = .11 + .23 = .34$$
+
+Now imagine $$ d $$ is in $$ S $$
+
+$$ P(\{d\}) = P(\{a,b,c\}^{'}) = 1 - P(\{a,b,c\}) = 1 - (.11 + .23 + .45) = .21$$

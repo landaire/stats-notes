@@ -1,0 +1,27 @@
+# Probability
+
+$$ x $$ is in $$ A \cap B \leftrightarrow x$$ is in $$ A $$ **and** $$ x $$ is in $$ B $$
+$$ x $$ is in $$ A \cup B \leftrightarrow x$$ is in $$ A $$ **or** $$ x $$ is in $$ B $$
+
+
+**Probability of an intersection**
+$$ P(T_1 \cap S_10) = \frac{n(T_1 \cap S_10)}{n(SS)} = \frac{0}{36} = 0 $$ since the intersection is the empty set
+
+**Probability of a union**
+$$ P(T_1 \cup S_10) = \frac{n(T_1 \cup S_10)}{n(SS)} = \frac{19}{35} $$
+or
+$$ P(T_1) \cup P(S_10) = \frac{19}{35}$$
+
+If $$ A_1, A_2, ..., A_n $$ are disjoint (mutually exclusive -- i.e. there is no overlap amongst any of the sets):
+$$ P(A_1 \cup A_2 \cup ... \cup A_n) $$ = $$ P(A_1) + P(A_2) + ... + P(A_n) $$
+
+In all cases $$ P(A \cup B) = P(A) + P(B) - P(A \cap B) $$
+
+What is the probability that the sum is nine?
+$$ P(S_9) = \frac{n(S_9)}{N(SS)} = \frac{4}{36} = \frac{1}{9} \approx .111 $$
+Probability that the sum is **not** nine?
+$$ P(S^{'}_9) = \frac{n(S^{'}_9)}{n(SS)} = \frac{32}{36} = \frac{8}{9} \approx .8889 $$
+In all cases:
+$$ P(A^{'}) = 1 - P(A) $$
+
+## Flipping a coin four times
