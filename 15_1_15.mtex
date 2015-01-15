@@ -1,0 +1,69 @@
+# Conditional Probability
+
+## Drawing a card from a deck
+
+Ordinary probability question:
+
+What is the probability that the card is a King ($$ K $$)?
+
+$$ K=\{K(\text{spades}),K(\text{hearts}),K(\text{diamonds}),K(\text{clubs})\} $$
+$$ P(K) = \frac{n(K)}{n(SS)} = \frac{4}{52} = \frac{1}{13} $$
+
+Conditional probability question:
+
+What is the probability that the card is a king if it is given that you dropped the card, saw a glimpse of it, saw that it was a red face card.
+
+
+$$ \Re (\text{red face card}) = \{K(\text{hearts}), K(\text{diamonds}), Q(\text{hearts}), Q(\text{diamonds}), J(\text{hearts}), J(\text{diamonds})\} $$
+$$ P(K|\Re)) = \frac{2}{6} = \frac{1}{3} $$
+
+In general for $$ P(A | B) $$, you can use the rule $$ P(A | B) = \frac{n(A \cap B)}{n(B)} $$ if all of the possible results are equally likely.
+
+## Rolling a die
+
+$$ SS=\{1,2,3,4,5,6\} $$
+$$ E = \{2,4,6\} $$
+$$ T = {2,3} $$
+
+What is the probability that the number is even, if it is given that the number starts with a $$ t? $$
+
+$$ P(E | T) = \frac{n(E \cap T)}{n(T)} $$
+
+## Bird stuff
+
+H = happy?
+
+ x | R | W | B 
+--|---|---|---
+H | 12 | 6 | 18 
+H' | 8 | 5 | 11
+
+Suppose one of these birds is randomly selected.
+
+What is the probability that the bird is white?
+
+$$ P(W) = \frac{n(W)}{n(SS)} = \frac{11}{60} $$
+
+What is the probability that the bird is happy?
+
+$$ P(H) = \frac{36}{60}$$
+
+What is the probability that the bird is white AND happy?
+
+$$ P(W \cap H) = \frac{6}{60} $$
+
+What is the probability that the bird is white OR happy?
+
+$$ P(W \cup H) = \frac{11}{60} + \frac{36}{60} - \frac{6}{60} = \frac{41}{60} $$
+
+What is the probability that the bird is not white?
+
+$$ P(W') = \frac{49}{60} $$
+
+What is the probability that the bird is white if it is given that the bird is happy?
+
+$$ P(W | H) = \frac{n(W \cap H)}{n(H)} = \frac{6}{36} = \frac{1}{6}$$
+
+What is the probability if the bird is happy if the bird is white?
+
+$$ P(H | W) = \frac{n(H \cap W)}{n(W)} = \frac{6}{11} $$
