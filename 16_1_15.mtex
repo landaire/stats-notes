@@ -1,0 +1,36 @@
+# Conditional Probability (cont.)
+
+If all of the possible results are equally likely
+
+$$ P(A | B) = \frac{n(A \cap B)}{n(B)} $$
+
+In all situations
+
+$$ P(A | B) = \frac{P(A \cap B)}{P(B)} $$
+
+## Where you need to use the second formula
+
+$$ SS = \{1,2,3,4\} $$
+$$ P(1) = .11, P(2) = .23, P(3) = .45, P(4) = .21 $$
+$$ P(x \geq 2 | x \leq 3) = ? \text{______} $$
+$$ = P(\{2,3,4\} | \{1,2,3\}) $$
+$$ = \frac{P(\{2,3,4\} \cap \{1,2,3\}))}{P(\{1,2,3\})} $$
+$$ = \frac{.23 + .45}{.11 + .23 + .45} = \frac{68}{79} $$
+
+---------
+
+ x | H | M | E | result
+--- | - | - | - | ----
+A   | .12 | .34 | .23 | .69
+A' | .21 | .05 | .03 | .31
+result | .33 | .41 | .26 | 1
+
+$$ P(A | H) = \frac{P(A \cap H)}{P(H)} = \frac{.12}{.33}  = \frac{12}{33} = \frac{4}{11} $$ 
+
+
+# Some other crap
+------------------
+
+$$ P(B | A) = \frac{P(A \cap B)}{P(A)} $$
+
+$$ P(A)P(B | A) = P(A \cap B) $$

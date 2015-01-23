@@ -1,0 +1,23 @@
+$$ P(A\cap B) $$
+$$ = \{P(A) P(B | A) $$
+$$ = \{P(B) P(A | B) $$
+
+$$ P(A | B) = \frac{P(A \cap B)}{P(B)} $$
+
+## Scenario
+
+Suppose that 80% is the probability that a person hits the basket (on the first shot). If the person hits the first basket, then 70% is the probability that the person hits the second basket. If the person misses the first basket, then 90% is the probability that he hits the second basket.
+
+What is the probability that the person hits both baskets?
+
+
+Let $$ H_1 $$ represent the probability of hitting the first basket and $$ H_2 $$ represent hitting the second.
+
+$$ P(H_1) = .8 $$
+$$ P(H_2 | H_1) = .7 $$
+$$ P(H_2 | H'_1) = .9 $$
+
+Probability of getting both baskets:
+$$ P(H_1 \cap H_2) = P(H_1) * P(H_2 | H_1) = .8 * .7 $$
+
+You can also build a probability tree.

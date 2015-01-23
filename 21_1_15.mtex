@@ -1,0 +1,18 @@
+## Back to Buckets
+
+$$ P(H_1) = .8 $$
+$$ P(H_2 | H_1) = .7 $$
+$$ P(H_2 | H'_1) = .9 $$
+$$ P(H_1 \cap H_2) = ? $$
+$$ P((H_1 \cap H'_2) \cup (H'_1 \cap H_2)) = ? $$
+
+What is the probability of hitting the second basket?
+
+Can only hit the second basket:
+
+- After hitting the first
+- After missing the first
+
+$$ P(H_2) = P((H_1 \cap H_2) \cup (H'_1 \cap H_2)) = ? $$
+$$ = P(H_1 \cap H_2) + P(H'_1 \cap H_2) = ? $$
+$$ = .56 + .18 $$ (based off of the tree that was built)

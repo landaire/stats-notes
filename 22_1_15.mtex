@@ -1,0 +1,22 @@
+# General Notes
+
+Covering everything (including yesterday -- wtf dawg)
+
+## Reviewing the last quiz
+
+$$ P(A \cup B) = P(A) + P(B) - P(A \cap B) $$
+
+$$ P(C'|A\cap B) = 1 - P(C | A \cap B)$$
+
+$$ P(A \cap B \cap C') = P(A \cap B) \cap C') $$
+
+## Some other assignment
+
+G = get a job
+T = two interviews
+
+$$ P(G) = .6 $$
+$$ P(T | G) = .75 $$
+$$ P(T | G') = .45 $$
+
+Use a tree for this shit
