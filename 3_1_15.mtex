@@ -1,0 +1,18 @@
+# Area slope stuff things
+
+$$ A_n(-\infty, \infty) = 1 $$, so any other range should be $$ \lt 1 $$
+
+$$ A_n(a, b) $$ is the area between $$ a $$ and $$ b $$
+
+If only given  one point, $$ A_n(-\infty, b) $$
+
+Answer for $$ A_n(-\infty, \frac{39}{19}) = .9798 $$
+
+Take for example, 1.43. Split to 1.4, then 0.03. Then find where the two intersect.
+$$ A_n(\frac{10}{7}, \frac{79}{19}) \approx A_n(1.43, 4.16) $$
+
+Table doesn't go up to 4.16, so do:
+
+$$ \approx A_n(1.43, 4.16) $$
+$$ \ge A_n(1.43, 3.49) $$
+$$ \approx A_n(-\infty, 3.49) - A_n(-\infty, 1.43) $$

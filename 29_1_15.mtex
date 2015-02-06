@@ -1,0 +1,18 @@
+Formula:
+
+Where $$ x $$ is the probability of some event occurring
+$$ \frac{n!}{x!(n-x)!} $$
+
+Binomial Experiment
+
+1. The experiment consists of doing something, called a trial, repeatedly (n times)
+2. There must be no influence on the outcome of more than one of the trials
+3. A trial must be viewed as having two possible results called success and failure
+4. The result of the experiment is the count ($$ k $$, or $$ x $$, or $$ r $$) of the number of successes
+5. $$ SS = \{0,1,...,n\} $$.
+6. $$ P $$ is the probability of success _if a trial is done once_.
+7. $$ q $$ is the probability of a failure if a trial is done once. $$ q = 1 - P $$
+8. $$ \hat{P} = \frac{k}{n}$$ is called the sample proportion and it is used as an estimate of P if you don't know P.
+9. If $$ k $$ is in the $$ SS $$, then the probability of K is given by $$ P(k) = \frac{n!}{k!(n-k)!}P^kq^{n-k} $$
+
+In our specific example with the five people drawing and two face cards are chosen, $$ k=2 $$

@@ -1,0 +1,18 @@
+$$ \sigma = \sqrt{\Sigma [(x-M)^2 P(X)]} = \sqrt{(\Sigma[x^2P(x)] - M^2} $$
+$$ \sigma^2 = E[(x - M)^2] = E(x^2) - E(x) $$
+
+If $$ y $$ is a list and $$ P(x) $$ is a list of probabilities then $$ E(y) $$ to refer to the result of these two steps (1) combining y with $$ P(x) $$ (2) taking the sum.
+
+x | P(x) | xP(x) | x^2 | x^2P(x) | x - M | $$ (x - M)^2 $$ | (x - M)^2 P(x)
+----- | ----- | ------|------|----
+5 | .25 | 1.25 | 25 | 6.25 | -3 | 9 | 2.25
+9 | .75 | 6.75 | 81 | 60.75 | 1 | 1 | .75
+ _ | _ | 8 | _ | 67 | _ | _ | 3.00
+
+$$ \sqrt{67 - 7^2} = sqrt(3) \approx 1.7321 $$ 
+
+Standard normal curve:
+
+highest point of the hump is at 0, then stuff goes down around $$ \pm 3 $$
+
+Put vertical lines at points a and b

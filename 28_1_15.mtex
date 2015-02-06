@@ -1,0 +1,28 @@
+Suppose five people each buy a deck of cards and randomly picks one of the cards. Assume there's no influence involving the chosen card for more than one of these people.
+
+What is the probability that 2 is the number of face cards that are chosen?
+
+$$ F_1 $$ = first person gets a face card
+$$ F_2 $$ = second
+...
+$$ F_5 $$
+
+$$ F_1 \cap F_2 F'_3 \cap F'_4 \cap F'_5 $$ is one possibility
+
+$$ U(F'_1 \cap F'_2 \cap F'_3 \cap F_4 \cap F_5) $$
+$$ P(F'_1 \cap F'_2 \cap F'_3 \cap F_4 \cap F_5) $$
+
+$$ P(F_1 \cap F_2 F'_3 \cap F'_4 \cap F'_5) \cup P(F_1 \cap F'_2 F_3 \cap F'_4 \cap F'_5) \cup .... $$
+$$ = P(F_1 \cap F_2 F'_3 \cap F'_4 \cap F'_5) + .... $$
+$$ = P(FFNNN) + P(FNFNN) + P(FNNFN) + P(FNNNF) + P(NFFNN) + P(NFNFN) + P(NFNNF) + P(NNFFN) + P(NNFNF) + P(NNNFF) $$
+$$ = P(F_1)P(F_2)P(F'_3)P(F'_4)P(F'_5) + ... $$
+$$ = \frac{3}{13}\frac{3}{13}\frac{10}{13}\frac{10}{13}\frac{10}{13} + .... = 10(\frac{3}{13})^2(\frac{10}{13})^2$$
+
+Answer to the question:
+
+$$ \frac{5!}{2!3!}(\frac{3}{13})^2(\frac{10}{13})^2 $$  5 people, 2 card chosen, 3 opportunities for face cards?
+
+## Binomial experiment
+
+1. Something (called a trial) done repeatedly (n times)
+2. There is no influence involving the outcomes of more than one of the trials

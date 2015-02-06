@@ -1,0 +1,35 @@
+TODO: z-score
+
+If $$ x $$ is a continuous random variable and $$ a $$ is a specific number then $$ P(x = a) = 0 $$. Suppose Y is the result of rolling a die is a discrete random.
+
+$$ P(y = 2) = \frac{1}{6} $$
+$$ P(y = 7) = 0 $$
+$$ P(y > 2) = \frac{4}{6} $$
+$$ P(y \ge 2) = \frac{5}{6} $$
+
+One can only get nonzero probabilities from questions like these:
+
+$$ P(x > a) = ?$$
+$$ P(x < b) = ?$$
+$$ P(a < x < b) = ? $$
+
+If $$ x $$ is a normal random variable (normal distributed)(normal) with the mean, $$ M_x $$, and the standard deviation, $$ \theta_x $$, $$ P(a < x < b) =  $$
+
+$$ P(a < x < b) = A_n(\frac{a - M_x}{\theta_x}, \frac{b - M_x}{\theta_x}) $$
+$$ P(x < b) = A_n(-\infty, \frac{b - M_x}{\theta_x}) $$
+$$ P(x > a) = A_n(\frac{a - M_x}{\theta_x}, \infty) $$
+
+Z-score: $$ \frac{a - M}{\theta} $$ where $$ \theta $$ is the standard deviation.
+
+----------
+
+Elephant weight is approximately normally distributed with mean, 500, and standard deviation, 133. What is the probability that an elephant's weight is between 690 and 733?
+
+$$ X = $$ elephant weight
+$$ M_x = 500 $$
+$$ \theta_x = 133 $$
+$$ a = 690 $$
+$$ b = 733 $$
+
+$$ P(690 < x < 733) = A_n(\frac{690-500}{133}, \frac{733 - 500}{133}) $$
+

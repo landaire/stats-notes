@@ -1,0 +1,11 @@
+# A lion, a tiger, and a bear are randomly selected
+
+.1 is the probability that the lion is coward
+.2 that the tiger is cowardly
+.3 that the bear is cowardly
+
+Assume that there is no influence involving the cowardice of more than one of these animals.
+
+What is the probability that all three are cowardly?
+
+$$ P(L \cap T \cap B) = P(L)P(T)P(B) = (.1)(.2)(.3) = (.006) $$
